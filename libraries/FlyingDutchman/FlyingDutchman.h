@@ -88,10 +88,6 @@ class FlyingDutchmanShip
 	void echoEnter(char* x);
 	void sleep(int x);
 	void winRUN(char* x);
-	void winFTP(char* action,char* username,char* password,char* host, char* port,char* file);
-	void hideWindow();
-	void minimizeWindow();
-	void writeOnBackground(char* x);
   private:
     int _Def_Init;
 };
